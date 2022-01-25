@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin: 5% auto;
+  border: 2px solid palevioletred;
+  vertical-align: center;
+}
+
+.text{
+  font-size: 15px;
+  font-family: Montserrat;
+  color: palevioletred;
+}
+
+.ugly-input{
+  display: none;
+}
+
+.img-button{
+  background-color: transparent;
+  border: 1.5px solid palevioletred;
+  width: 100px;
+  height: 20px;
+  color: palevioletred;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.img-display{
+  max-height: 200px;
+  margin: auto;
+}
